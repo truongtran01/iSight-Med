@@ -23,8 +23,7 @@ This project demonstrates how to connect and preview a USB Video Class (UVC) cam
 4. Build and run the application on your device
 
 ## How it works
-
-The app uses the [UVCCamera library](https://github.com/saki4510t/UVCCamera) by saki4510t to handle communication with UVC devices. It implements the following flow:
+It implements the following flow:
 
 1. Monitors USB device connections
 2. Requests permission to access the UVC device when connected
@@ -42,9 +41,6 @@ The application requires the USB Host feature and automatically requests permiss
 - Performance may vary based on the device and camera specifications
 - The default resolution is set to 640x480
 
-## Acknowledgements
-
-This project is based on the [UVCCamera library](https://github.com/saki4510t/UVCCamera) by saki4510t.
 
 ## License
 
